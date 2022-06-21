@@ -1,0 +1,1 @@
+# campeonato-haskell
