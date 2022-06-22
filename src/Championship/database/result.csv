@@ -1,91 +1,91 @@
-Rodada;Time Mandante;Gols Mandante;Gols Visitante;Time Visitante
-1;Avai;4;2;Oeste
-1;CSA;0;2;Botafogo
-1;Nautico;4;2;Guarani
-1;Confianca;1;2;Figueirense
-1;Sampaio Correa;5;0;Cruzeiro
-2;Nautico;1;4;Botafogo
-2;Oeste;2;4;Figueirense
-2;Avai;4;5;Cruzeiro
-2;CSA;4;2;Confianca
-2;Sampaio Correa;2;2;Guarani
-3;Oeste;2;3;Cruzeiro
-3;Nautico;0;1;CSA
-3;Sampaio Correa;2;4;Botafogo
-3;Avai;0;1;Confianca
-3;Guarani;4;4;Figueirense
-4;CSA;1;1;Cruzeiro
-4;Oeste;4;5;Guarani
-4;Nautico;3;3;Sampaio Correa
-4;Avai;5;0;Figueirense
-4;Confianca;5;5;Botafogo
-5;Nautico;3;2;Cruzeiro
-5;CSA;0;1;Figueirense
-5;Avai;1;4;Sampaio Correa
-5;Confianca;5;4;Guarani
-5;Oeste;0;2;Botafogo
-6;Cruzeiro;2;1;Guarani
-6;Oeste;0;3;CSA
-6;Confianca;1;3;Sampaio Correa
-6;Botafogo;0;0;Figueirense
-6;Nautico;5;5;Avai
-7;Confianca;4;3;Cruzeiro
-7;Avai;2;0;CSA
-7;Nautico;2;0;Oeste
-7;Botafogo;0;3;Guarani
-7;Sampaio Correa;5;1;Figueirense
-8;Botafogo;1;1;Cruzeiro
-8;CSA;1;2;Sampaio Correa
-8;Oeste;2;4;Confianca
-8;Avai;4;4;Guarani
-8;Nautico;0;1;Figueirense
-9;Cruzeiro;5;0;Figueirense
-9;Oeste;0;3;Sampaio Correa
-9;Nautico;1;5;Confianca
-9;Avai;0;4;Botafogo
-9;CSA;4;1;Guarani
-10;Confianca;0;4;Oeste
-10;Botafogo;3;3;CSA
-10;Guarani;5;5;Nautico
-10;Cruzeiro;4;0;Avai
-10;Figueirense;4;1;Sampaio Correa
-11;CSA;1;5;Oeste
-11;Guarani;3;1;Botafogo
-11;Cruzeiro;5;5;Nautico
-11;Figueirense;5;4;Confianca
-11;Sampaio Correa;2;4;Avai
-12;Sampaio Correa;2;1;CSA
-12;Cruzeiro;4;5;Oeste
-12;Guarani;0;0;Confianca
-12;Figueirense;0;4;Botafogo
-12;Avai;5;0;Nautico
-13;Figueirense;0;1;Oeste
-13;Confianca;5;2;CSA
-13;Sampaio Correa;4;4;Nautico
-13;Cruzeiro;3;1;Botafogo
-13;Guarani;2;4;Avai
-14;CSA;3;3;Avai
-14;Botafogo;2;0;Oeste
-14;Cruzeiro;4;0;Confianca
-14;Figueirense;5;1;Nautico
-14;Guarani;5;1;Sampaio Correa
-15;Oeste;0;2;Nautico
-15;Sampaio Correa;2;5;Confianca
-15;Botafogo;3;3;Avai
-15;Guarani;4;1;Cruzeiro
-15;Figueirense;4;1;CSA
-16;Oeste;2;5;Avai
-16;Botafogo;2;2;Sampaio Correa
-16;Figueirense;0;2;Guarani
-16;Cruzeiro;2;1;CSA
-16;Confianca;1;2;Nautico
-17;Sampaio Correa;4;5;Oeste
-17;Confianca;5;0;Avai
-17;Botafogo;3;2;Nautico
-17;Figueirense;1;1;Cruzeiro
-17;Guarani;2;2;CSA
-18;Guarani;3;0;Oeste
-18;Botafogo;0;0;Confianca
-18;Cruzeiro;5;5;Sampaio Correa
-18;CSA;4;3;Nautico
-18;Figueirense;5;5;Avai
+Rodada,Time Mandante,Gols Mandante,Gols Visitante,Time Visitante
+1,Avai,4,2,Oeste
+1,CSA,0,2,Botafogo
+1,Nautico,4,2,Guarani
+1,Confianca,1,2,Figueirense
+1,Sampaio Correa,5,0,Cruzeiro
+2,Nautico,1,4,Botafogo
+2,Oeste,2,4,Figueirense
+2,Avai,4,5,Cruzeiro
+2,CSA,4,2,Confianca
+2,Sampaio Correa,2,2,Guarani
+3,Oeste,2,3,Cruzeiro
+3,Nautico,0,1,CSA
+3,Sampaio Correa,2,4,Botafogo
+3,Avai,0,1,Confianca
+3,Guarani,4,4,Figueirense
+4,CSA,1,1,Cruzeiro
+4,Oeste,4,5,Guarani
+4,Nautico,3,3,Sampaio Correa
+4,Avai,5,0,Figueirense
+4,Confianca,5,5,Botafogo
+5,Nautico,3,2,Cruzeiro
+5,CSA,0,1,Figueirense
+5,Avai,1,4,Sampaio Correa
+5,Confianca,5,4,Guarani
+5,Oeste,0,2,Botafogo
+6,Cruzeiro,2,1,Guarani
+6,Oeste,0,3,CSA
+6,Confianca,1,3,Sampaio Correa
+6,Botafogo,0,0,Figueirense
+6,Nautico,5,5,Avai
+7,Confianca,4,3,Cruzeiro
+7,Avai,2,0,CSA
+7,Nautico,2,0,Oeste
+7,Botafogo,0,3,Guarani
+7,Sampaio Correa,5,1,Figueirense
+8,Botafogo,1,1,Cruzeiro
+8,CSA,1,2,Sampaio Correa
+8,Oeste,2,4,Confianca
+8,Avai,4,4,Guarani
+8,Nautico,0,1,Figueirense
+9,Cruzeiro,5,0,Figueirense
+9,Oeste,0,3,Sampaio Correa
+9,Nautico,1,5,Confianca
+9,Avai,0,4,Botafogo
+9,CSA,4,1,Guarani
+10,Confianca,0,4,Oeste
+10,Botafogo,3,3,CSA
+10,Guarani,5,5,Nautico
+10,Cruzeiro,4,0,Avai
+10,Figueirense,4,1,Sampaio Correa
+11,CSA,1,5,Oeste
+11,Guarani,3,1,Botafogo
+11,Cruzeiro,5,5,Nautico
+11,Figueirense,5,4,Confianca
+11,Sampaio Correa,2,4,Avai
+12,Sampaio Correa,2,1,CSA
+12,Cruzeiro,4,5,Oeste
+12,Guarani,0,0,Confianca
+12,Figueirense,0,4,Botafogo
+12,Avai,5,0,Nautico
+13,Figueirense,0,1,Oeste
+13,Confianca,5,2,CSA
+13,Sampaio Correa,4,4,Nautico
+13,Cruzeiro,3,1,Botafogo
+13,Guarani,2,4,Avai
+14,CSA,3,3,Avai
+14,Botafogo,2,0,Oeste
+14,Cruzeiro,4,0,Confianca
+14,Figueirense,5,1,Nautico
+14,Guarani,5,1,Sampaio Correa
+15,Oeste,0,2,Nautico
+15,Sampaio Correa,2,5,Confianca
+15,Botafogo,3,3,Avai
+15,Guarani,4,1,Cruzeiro
+15,Figueirense,4,1,CSA
+16,Oeste,2,5,Avai
+16,Botafogo,2,2,Sampaio Correa
+16,Figueirense,0,2,Guarani
+16,Cruzeiro,2,1,CSA
+16,Confianca,1,2,Nautico
+17,Sampaio Correa,4,5,Oeste
+17,Confianca,5,0,Avai
+17,Botafogo,3,2,Nautico
+17,Figueirense,1,1,Cruzeiro
+17,Guarani,2,2,CSA
+18,Guarani,3,0,Oeste
+18,Botafogo,0,0,Confianca
+18,Cruzeiro,5,5,Sampaio Correa
+18,CSA,4,3,Nautico
+18,Figueirense,5,5,Avai

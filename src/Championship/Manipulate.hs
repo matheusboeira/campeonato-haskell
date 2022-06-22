@@ -29,7 +29,7 @@ type Rank = Int
 --
 parseToMatch :: [String] -> [Match]
 parseToMatch [] = []
-parseToMatch fileLine = map (parseLine . File.splitBy ';') fileLine
+parseToMatch fileLine = map (parseLine . File.splitBy ',') fileLine
     where
         parseLine line = Match (read $ head line) (line !! 1)
                                (read $ line !! 2) (read $ line !! 3)
@@ -40,7 +40,7 @@ parseToMatch fileLine = map (parseLine . File.splitBy ';') fileLine
 --
 parseToTeamResult :: [String] -> [TeamResult]
 parseToTeamResult [] = []
-parseToTeamResult fileLine = map (parseLine . File.splitBy ';') fileLine
+parseToTeamResult fileLine = map (parseLine . File.splitBy ',') fileLine
     where
         parseLine line = TeamResult (head line) (read $ line !! 1)
                                     (read $ line !! 2) (read $ line !! 3)
@@ -275,7 +275,7 @@ storeTeamResult = do
     matches <- getMatches
     let filtered = filterByFirstRound matches
     writeFile "src/Championship/database/team_result.csv"
-        $ "Time;Gols;Vitorias;Empates;Derrotas;Pontos;Aproveitamento;Saldo de Gols;Gols Sofridos\n"
+        $ "Time,Gols,Vitorias,Empates,Derrotas,Pontos,Aproveitamento,Saldo de Gols,Gols Sofridos\n"
         ++ getHomeTeamInfo "" matches filtered
         ++ getAwayTeamInfo "" matches filtered
 
@@ -297,11 +297,11 @@ getHomeTeamInfo text allMatches (match : matches) = do
     let points = getPointsByTeam ht allMatches
     let record = getRecordsByTeam ht allMatches
     let goalsConceded = getGoalsAgainstByTeam ht allMatches
-    let append = text ++ ht ++ ";" ++ show goals ++ ";"
-            ++ show wins ++ ";" ++ show draws ++ ";"
-            ++ show losses ++ ";" ++ show points ++ ";"
-            ++ printf "%.2g" record ++ ";"
-            ++ show goalsDiff ++ ";" ++ show goalsConceded ++ "\n"
+    let append = text ++ ht ++ "," ++ show goals ++ ","
+            ++ show wins ++ "," ++ show draws ++ ","
+            ++ show losses ++ "," ++ show points ++ ","
+            ++ printf "%.1g" record ++ ","
+            ++ show goalsDiff ++ "," ++ show goalsConceded ++ "\n"
     getHomeTeamInfo append allMatches matches
 
 --
@@ -322,11 +322,11 @@ getAwayTeamInfo text allMatches (match : matches) = do
     let points = getPointsByTeam at allMatches
     let record = getRecordsByTeam at allMatches
     let goalsConceded = getGoalsAgainstByTeam at allMatches
-    let append = text ++ at ++ ";" ++ show goals ++ ";"
-            ++ show wins ++ ";" ++ show draws ++ ";"
-            ++ show losses ++ ";" ++ show points ++ ";"
-            ++ printf "%.2g" record ++ ";"
-            ++ show goalsDiff ++ ";" ++ show goalsConceded ++ "\n"
+    let append = text ++ at ++ "," ++ show goals ++ ","
+            ++ show wins ++ "," ++ show draws ++ ","
+            ++ show losses ++ "," ++ show points ++ ","
+            ++ printf "%.1g" record ++ ","
+            ++ show goalsDiff ++ "," ++ show goalsConceded ++ "\n"
     getAwayTeamInfo append allMatches matches
 
 --

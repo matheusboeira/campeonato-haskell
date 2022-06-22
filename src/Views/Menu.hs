@@ -6,9 +6,8 @@ import System.Exit ( exitSuccess )
 import qualified Utils.AppUtils as U
 import qualified Championship.Manipulate as M
 import qualified Views.ShowResult as S
-import Text.Read ( readMaybe )
-import Championship.Manipulate (getResultByRoundAndTeam)
-import Championship.Structures (Match(..))
+import Championship.Manipulate ( getResultByRoundAndTeam )
+import Championship.Structures ( Match(..) )
 
 --
 -- Menu principal.
