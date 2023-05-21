@@ -4,4 +4,14 @@ O presente projeto tem como intuito organizar uma tabela de dados (em .csv) util
 
 ## Demonstração (última opção do menu)
 
-![image](https://user-images.githubusercontent.com/76896958/224529025-f8e34ede-92ac-4f14-83c3-08d6d87394ab.png)
+![image](https://github.com/matheusboeira/campeonato-haskell/assets/76896958/675246af-6b5f-4106-bb1c-e2a0b7df5e5f)
+
+## Execução
+
+Para executar o programa, basta seguir a ordem abaixo:
+
+- Estar no `root` do projeto
+- Digitar `cabal repl app/Main.hs`
+- Digitar `main` dentro do terminal `ghci`.
+
+Após isso, será apresentado o menu principal do projeto.
