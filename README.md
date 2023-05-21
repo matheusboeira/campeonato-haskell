@@ -6,6 +6,15 @@ O presente projeto tem como intuito organizar uma tabela de dados (em .csv) util
 
 ![image](https://github.com/matheusboeira/campeonato-haskell/assets/76896958/675246af-6b5f-4106-bb1c-e2a0b7df5e5f)
 
+## Dependências
+
+As seguintes dependências são necessárias para o projeto:
+
+- GHCup
+- Cabal
+
+Estas podem ser instaladas [aqui](https://www.haskell.org/ghcup/install/).
+
 ## Execução
 
 Para executar o programa, basta seguir a ordem abaixo:
